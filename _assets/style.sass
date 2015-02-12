@@ -99,32 +99,23 @@ a
 //.widget-title
 
 .widget_gce_widget
-    font-size: 110%
-    .gce-widget-list
-        .gce-list-event, .gce-tooltip-event
-            background: inherit
+    .gce-event-day
+        .gce-list-title
+            font-size: 120%
 
-    .gce-list-grouped
-        .gce-event-day
-            .gce-list-title
-                margin-top: 1em
-
-            .gce-feed
-                padding-left: 0.5em
-                border-left: 2px solid $color_footer_background 
+        .gce-feed
+            .event
+                a
+                    color: $color_vihreat
                 
-                > div
-                    &:first-child
-                        font-weight: bold
-                    &.gce-list-event
-                        font-size: 110%
-                        padding-top: 0.5em
-                        padding-bottom: 0.5em
-                        small
-                            font-weight: bold
+                h3.event-title
+                    font-size: 110%
 
-                    a
-                        color: $color_vihreat
+                    .event-date
+                        font-size: 90%
+
+                    .event-link
+                        font-size: 90%
 
 input[type=submit], input[type=reset], input[type=button]
     background-color: $color_link
