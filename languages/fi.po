@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Engrave Lite\n"
 "POT-Creation-Date: 2013-10-17 16:59-0000\n"
-"PO-Revision-Date: 2015-02-12 12:34+0200\n"
+"PO-Revision-Date: 2015-02-12 20:53+0200\n"
 "Last-Translator: Ville Korhonen <ville@xd.fi>\n"
 "Language-Team: Ville Korhonen <ville@xd.fi>\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr "Valitettavasti hakemaasi sivua ei löytynyt."
 
 #: ../404.php:16
 msgid "Please try using the search function."
-msgstr ""
+msgstr "Ole hyvä ja kokeile hakutoimintoa."
 
 #: ../comments.php:22 ../admin/main/options/00.theme-setup.php:408
 #: ../admin/main/options/00.theme-setup.php:468
@@ -39,20 +39,20 @@ msgstr "Vanhemmat kommentit"
 
 #: ../comments.php:32 ../comments.php:43
 msgid "Newer Comments"
-msgstr ""
+msgstr "Uudemmat kommentit"
 
 #: ../comments.php:55
 msgid "Comments are closed."
-msgstr ""
+msgstr "Kommentointi on pois käytöstä."
 
 #: ../content.php:15 ../admin/main/options/05.blog.php:17
 #, php-format
 msgid "Permalink to %s"
-msgstr ""
+msgstr "Pysyvä linkki sivulle %s"
 
 #: ../image.php:18
 msgid "Published"
-msgstr ""
+msgstr "Julkaistu"
 
 #: ../no-results.php:11
 msgid "Nothing Found"
@@ -63,22 +63,27 @@ msgstr "Mitään ei löytynyt"
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
+"Oletko valmis julkaisemaan ensimmäisen artikkelisi? <a href=\"%1$s\">Aloita "
+"klikkaamalla tästä</a>."
 
 #: ../no-results.php:21
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
 msgstr ""
+"Pahoittelut, mutta hakuehdoillasi ei löytynyt mitään. Ole hyvä ja yritä "
+"jollakin toisella hakusanalla."
 
 #: ../no-results.php:26
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
+"Näyttä siltä, että emme löydä hakemaasi. Ehkäpä hakutoiminto voisi auttaa?"
 
 #: ../searchform.php:9
 msgid "Search"
-msgstr ""
+msgstr "Hae"
 
 #: ../sidebar.php:16 ../admin/main/options/04.footer.php:16
 #: ../admin/main/options/04.footer.php:29
@@ -87,13 +92,15 @@ msgstr ""
 #: ../admin/main/options/04.footer.php:68
 #: ../admin/main/options/04.footer.php:81
 msgid "Please Add Widgets"
-msgstr ""
+msgstr "Ole hyvä ja lisää vimpaimpia"
 
 #: ../sidebar.php:18
 msgid ""
 "Remove this message by adding widgets to the Sidebar from the Widgets "
 "section of the Wordpress admin area."
 msgstr ""
+"Poista tämä viesti lisäämällä vimpaimia sivupalkkiin Vimpain-asetusvalikon "
+"kautta hallintapaneelissa."
 
 #: ../sidebar.php:19 ../admin/main/options/04.footer.php:19
 #: ../admin/main/options/04.footer.php:32
@@ -102,72 +109,75 @@ msgstr ""
 #: ../admin/main/options/04.footer.php:71
 #: ../admin/main/options/04.footer.php:84
 msgid "Click here to go to Widget area."
-msgstr ""
+msgstr "Klikkaa tästä siirtyäksesi vimpainalueelle."
 
 #: ../single.php:16 ../admin/main/options/05.blog.php:244
 #: ../admin/main/options/05.blog.php:272
 msgid "Edit"
-msgstr ""
+msgstr "Muokkaa"
 
 #: ../template-archive.php:11 ../template-sitemap.php:11
 msgid "Pages:"
-msgstr ""
+msgstr "Sivut:"
 
 #: ../template-archive.php:18
 msgid "Recent Posts:"
-msgstr ""
+msgstr "Viimeisimmät artikkelit:"
 
 #: ../template-archive.php:25
 msgid "Monthly:"
-msgstr ""
+msgstr "Kuukausittain:"
 
 #: ../template-archive.php:30
 msgid "Categories:"
-msgstr ""
+msgstr "Kategoriat:"
 
 #: ../template-archive.php:35 ../template-sitemap.php:16
 msgid "Author(s):"
-msgstr ""
+msgstr "Tekijä(t):"
 
 #: ../template-sitemap.php:23
 msgid "Posts:"
-msgstr ""
+msgstr "Artikkelit:"
 
 #: ../template-sitemap.php:32
 msgid "Category:"
-msgstr ""
+msgstr "Kategoria:"
 
 #: ../template-sitemap.php:49
 msgid "Archives:"
-msgstr ""
+msgstr "Arkistot:"
 
 #: ../admin/main/framework.php:122 ../admin/main/framework.php:124
 #: ../admin/main/options.php:210
 msgid "Options"
-msgstr ""
+msgstr "Asetukset"
 
 #: ../admin/main/framework.php:135
 msgid "<span id=\"footer-thankyou\">Options panel created using <a href=\""
 msgstr ""
+"<span id=\"footer-thankyou\">Asetusvalikko luotiin käyttämällä <a href=\""
 
 #: ../admin/main/framework.php:1274 ../admin/main/framework.php:1275
 #: ../admin/main/framework.php:2037
 msgid "Import / Export"
-msgstr ""
+msgstr "Tuo / Vie"
 
 #: ../admin/main/framework.php:1296 ../admin/main/framework.php:1297
 #: ../admin/main/framework.php:2067 ../admin/main/framework.php:2174
 msgid "Options Object"
-msgstr ""
+msgstr "Asetusolio"
 
 #: ../admin/main/framework.php:1307 ../admin/main/framework.php:1308
 #: ../admin/main/framework.php:2081 ../admin/main/framework.php:2194
 msgid "System Info"
-msgstr ""
+msgstr "Järjestelmätiedot"
 
 #: ../admin/main/framework.php:1437
 msgid "You have changes that are not saved. Would you like to save them now?"
 msgstr ""
+"Olet tehnyt muutoksia, joita ei ole tallennettu. Haluaisitko tallentaa ne "
+"nyt?"
 
 #: ../admin/main/framework.php:1438
 msgid "Are you sure? Resetting will loose all custom values."
@@ -181,7 +191,7 @@ msgstr ""
 
 #: ../admin/main/framework.php:1687
 msgid "Default"
-msgstr ""
+msgstr "Oletus"
 
 #: ../admin/main/framework.php:1912
 msgid "Warning- This options panel will not work properly without javascript!"
@@ -193,11 +203,11 @@ msgstr "Laajenna"
 
 #: ../admin/main/framework.php:1969 ../admin/main/framework.php:2225
 msgid "Reset to Defaults"
-msgstr ""
+msgstr "Palauta oletukset"
 
 #: ../admin/main/framework.php:1972 ../admin/main/framework.php:2228
 msgid "Working..."
-msgstr ""
+msgstr "Työskennellään..."
 
 #: ../admin/main/framework.php:1979
 msgid "<strong>Settings Imported!</strong>"
@@ -249,7 +259,7 @@ msgstr ""
 
 #: ../admin/main/framework.php:2142
 msgid "Import"
-msgstr ""
+msgstr "Tuo"
 
 #: ../admin/main/framework.php:2142
 msgid ""
@@ -305,12 +315,12 @@ msgstr ""
 #: ../admin/main/inc/fields/promotion/field_promotion.php:129
 #, php-format
 msgid "By %s"
-msgstr ""
+msgstr "Tehnyt %s"
 
 #: ../admin/main/options.php:91
 #, php-format
 msgid "Version %s"
-msgstr ""
+msgstr "Versio %s"
 
 #: ../admin/main/options.php:92 ../lib/widgets/tagscloud.php:44
 msgid "Tags"
@@ -327,7 +337,7 @@ msgstr ""
 
 #: ../admin/main/options.php:206
 msgid "Theme Options"
-msgstr ""
+msgstr "Teeman asetukset"
 
 #: ../admin/main/options.php:281
 msgid ""
@@ -349,7 +359,7 @@ msgstr ""
 
 #: ../admin/main/options.php:321
 msgid "Logo Settings"
-msgstr ""
+msgstr "Logoasetukset"
 
 #: ../admin/main/options.php:322
 msgid ""
@@ -379,7 +389,7 @@ msgstr ""
 
 #: ../admin/main/options.php:348
 msgid "Site Title"
-msgstr ""
+msgstr "Sivun otsikko"
 
 #: ../admin/main/options.php:349
 msgid ""
@@ -389,7 +399,7 @@ msgstr ""
 
 #: ../admin/main/options.php:356
 msgid "Site Description"
-msgstr ""
+msgstr "Sivun kuvaus"
 
 #: ../admin/main/options.php:357
 msgid ""
@@ -411,7 +421,7 @@ msgstr ""
 
 #: ../admin/main/options.php:379
 msgid "Page Layout"
-msgstr ""
+msgstr "Sivun asettelu"
 
 #: ../admin/main/options.php:380
 msgid ""
@@ -422,7 +432,7 @@ msgstr ""
 #: ../admin/main/options.php:393 ../admin/main/options.php:498
 #: ../admin/main/options.php:952 ../admin/main/options.php:993
 msgid "Select a Sidebar"
-msgstr ""
+msgstr "Valitse sivupalkki"
 
 #: ../admin/main/options.php:394
 msgid "Choose a sidebar to use with the page layout."
@@ -435,7 +445,7 @@ msgstr ""
 
 #: ../admin/main/options.php:402
 msgid "Enable Responsive Layout"
-msgstr ""
+msgstr "Ota käyttöön responsiivinen sivuasettelu"
 
 #: ../admin/main/options.php:403
 msgid "Check to enable responsive layout."
@@ -443,7 +453,7 @@ msgstr ""
 
 #: ../admin/main/options.php:410
 msgid "Enable Breadcrumbs"
-msgstr ""
+msgstr "Ota käyttöön murupolku"
 
 #: ../admin/main/options.php:411
 msgid "Switch on to enable breadcrumbs."
@@ -465,7 +475,7 @@ msgstr ""
 
 #: ../admin/main/options.php:436
 msgid "Custom CSS"
-msgstr ""
+msgstr "Mukautettu CSS"
 
 #: ../admin/main/options.php:437
 msgid ""
@@ -543,7 +553,7 @@ msgstr ""
 
 #: ../admin/main/options.php:530
 msgid "Message"
-msgstr ""
+msgstr "Viesti"
 
 #: ../admin/main/options.php:531
 msgid "Check to enable intro on home page."
@@ -571,7 +581,7 @@ msgstr ""
 
 #: ../admin/main/options.php:560
 msgid "Link"
-msgstr ""
+msgstr "Linkki"
 
 #: ../admin/main/options.php:561
 msgid ""
@@ -635,7 +645,7 @@ msgstr ""
 
 #: ../admin/main/options.php:635
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: ../admin/main/options.php:636
 msgid "Enable link to Facebook profile."
@@ -680,7 +690,7 @@ msgstr ""
 
 #: ../admin/main/options.php:701
 msgid "Google+"
-msgstr ""
+msgstr "Google+"
 
 #: ../admin/main/options.php:702
 msgid "Enable link to Google+ profile."
@@ -698,7 +708,7 @@ msgstr ""
 
 #: ../admin/main/options.php:734
 msgid "LinkedIn"
-msgstr ""
+msgstr "LinkedIn"
 
 #: ../admin/main/options.php:735
 msgid "Enable link to LinkedIn profile."
@@ -716,7 +726,7 @@ msgstr ""
 
 #: ../admin/main/options.php:767
 msgid "Flickr"
-msgstr ""
+msgstr "Flickr"
 
 #: ../admin/main/options.php:768
 msgid "Enable link to Flickr profile."
@@ -734,7 +744,7 @@ msgstr ""
 
 #: ../admin/main/options.php:800
 msgid "Last FM"
-msgstr ""
+msgstr "Last FM"
 
 #: ../admin/main/options.php:801
 msgid "Enable link to Last FM profile."
@@ -752,7 +762,7 @@ msgstr ""
 
 #: ../admin/main/options.php:833
 msgid "RSS"
-msgstr ""
+msgstr "RSS"
 
 #: ../admin/main/options.php:834
 msgid "Enable link to RSS profile."
@@ -770,7 +780,7 @@ msgstr ""
 
 #: ../admin/main/options.php:872
 msgid "Footer"
-msgstr ""
+msgstr "Footer"
 
 #: ../admin/main/options.php:873
 msgid "<span class=\"redux-title\">Control Footer Content</span>"
@@ -804,7 +814,7 @@ msgstr ""
 
 #: ../admin/main/options.php:932
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: ../admin/main/options.php:933
 msgid "<span class=\"redux-title\">Control Blog Pages</span>"
@@ -812,7 +822,7 @@ msgstr ""
 
 #: ../admin/main/options.php:939
 msgid "Blog Layout"
-msgstr ""
+msgstr "Blogin asettelu"
 
 #: ../admin/main/options.php:940
 msgid ""
@@ -828,7 +838,7 @@ msgstr ""
 
 #: ../admin/main/options.php:960
 msgid "Post Content"
-msgstr ""
+msgstr "Artikkelin sisältö"
 
 #: ../admin/main/options.php:961
 msgid ""
@@ -854,7 +864,7 @@ msgstr ""
 
 #: ../admin/main/options.php:1034
 msgid "Typography"
-msgstr ""
+msgstr "Kirjaisimet"
 
 #: ../admin/main/options.php:1035
 msgid "<span class=\"redux-title\">Control Font Family</span>"
@@ -1212,16 +1222,16 @@ msgstr ""
 
 #: ../admin/main/inc/fields/typography/field_typography.php:105
 msgid "Font family"
-msgstr ""
+msgstr "Kirjasinperhe"
 
 #: ../admin/main/inc/fields/typography/field_typography.php:165
 #: ../admin/main/inc/fields/typography/field_typography.php:169
 msgid "Font style"
-msgstr ""
+msgstr "Font style"
 
 #: ../admin/main/inc/fields/typography/field_typography.php:169
 msgid "Style"
-msgstr ""
+msgstr "Tyyli"
 
 #: ../admin/main/inc/fields/typography/field_typography.php:195
 msgid "Font subsets"
@@ -1237,11 +1247,11 @@ msgstr ""
 
 #: ../admin/main/inc/fields/typography/field_typography.php:214
 msgid "Size"
-msgstr ""
+msgstr "Koko"
 
 #: ../admin/main/inc/fields/typography/field_typography.php:223
 msgid "Height"
-msgstr ""
+msgstr "Korkeus"
 
 #: ../admin/main/inc/fields/typography/field_typography.php:231
 msgid "Word Spacing"
@@ -1253,7 +1263,7 @@ msgstr ""
 
 #: ../admin/main/inc/fields/typography/field_typography.php:254
 msgid "Font color"
-msgstr ""
+msgstr "Tekstin väri"
 
 #: ../admin/main/inc/fields/typography/field_typography.php:262
 msgid "Backup Font Family"
@@ -1350,7 +1360,7 @@ msgstr ""
 
 #: ../admin/main/options/00.theme-setup.php:188
 msgid "Error 404 - Not Found."
-msgstr ""
+msgstr "Virhe 404 - Sivua ei löydy"
 
 #: ../admin/main/options/00.theme-setup.php:190
 #: ../admin/main/options/01.general-settings.php:385
@@ -1359,31 +1369,31 @@ msgstr "Portfolio"
 
 #: ../admin/main/options/00.theme-setup.php:220
 msgid "Prev"
-msgstr ""
+msgstr "Edellinen"
 
 #: ../admin/main/options/00.theme-setup.php:228
 msgid "Next"
-msgstr ""
+msgstr "Seuraava"
 
 #: ../admin/main/options/00.theme-setup.php:407
 #: ../admin/main/options/00.theme-setup.php:466
 #: ../lib/widgets/popularposts.php:90
 msgid "No Comments"
-msgstr ""
+msgstr "Ei kommentteja"
 
 #: ../admin/main/options/00.theme-setup.php:409
 #: ../admin/main/options/00.theme-setup.php:464
 #: ../admin/main/options/05.blog.php:118 ../lib/widgets/popularposts.php:90
 msgid "% Comments"
-msgstr ""
+msgstr "% kommenttia"
 
 #: ../admin/main/options/00.theme-setup.php:410
 msgid "Comments Off"
-msgstr ""
+msgstr "Kommentointi pois käytöstä"
 
 #: ../admin/main/options/00.theme-setup.php:422
 msgid "Enter your password to view comments."
-msgstr ""
+msgstr "Anna salasanasi katsellaksesi kommentteja."
 
 #: ../admin/main/options/00.theme-setup.php:449
 #, php-format
@@ -1484,12 +1494,12 @@ msgstr "0 kommenttia"
 
 #: ../admin/main/options/05.blog.php:126 ../admin/main/options/05.blog.php:137
 msgid ", "
-msgstr ""
+msgstr ","
 
 #: ../admin/main/options/05.blog.php:130 ../admin/main/options/05.blog.php:141
 #, php-format
 msgid "%1$s"
-msgstr ""
+msgstr "%1$s"
 
 #: ../admin/main/options/05.blog.php:148
 #, php-format
@@ -1513,7 +1523,7 @@ msgstr "Paluuviittaus:"
 
 #: ../admin/main/options/05.blog.php:262
 msgid "Your comment is awaiting moderation."
-msgstr ""
+msgstr "Kommenttisi on tarkistettavana"
 
 #: ../lib/plugins/theme-plugin-activation.php:167
 msgid "Something went wrong."
@@ -1536,11 +1546,11 @@ msgstr ""
 
 #: ../lib/plugins/theme-plugin-activation.php:703
 msgid "Dismiss this notice"
-msgstr ""
+msgstr "Ohita tämä huomautus"
 
 #: ../lib/plugins/theme-plugin-activation.php:1090
 msgid "External Link"
-msgstr ""
+msgstr "Ulkoinen linkki"
 
 #: ../lib/plugins/theme-plugin-activation.php:1095
 msgid "Private Repository"
@@ -1556,15 +1566,15 @@ msgstr ""
 
 #: ../lib/plugins/theme-plugin-activation.php:1105
 msgid "Required"
-msgstr ""
+msgstr "Vaaditaan"
 
 #: ../lib/plugins/theme-plugin-activation.php:1105
 msgid "Recommended"
-msgstr ""
+msgstr "Suositeltu"
 
 #: ../lib/plugins/theme-plugin-activation.php:1108
 msgid "Not Installed"
-msgstr ""
+msgstr "Ei asennettu"
 
 #: ../lib/plugins/theme-plugin-activation.php:1110
 msgid "Installed But Not Activated"
@@ -1579,7 +1589,7 @@ msgstr ""
 
 #: ../lib/plugins/theme-plugin-activation.php:1296
 msgid "Plugin"
-msgstr ""
+msgstr "Lisäosa"
 
 #: ../lib/plugins/theme-plugin-activation.php:1297
 msgid "Source"
@@ -1587,25 +1597,25 @@ msgstr "Lähde"
 
 #: ../lib/plugins/theme-plugin-activation.php:1298
 msgid "Type"
-msgstr ""
+msgstr "Tyyppi"
 
 #: ../lib/plugins/theme-plugin-activation.php:1299
 msgid "Status"
-msgstr ""
+msgstr "Tila"
 
 #: ../lib/plugins/theme-plugin-activation.php:1317
 msgid "Install"
-msgstr ""
+msgstr "Asenna"
 
 #: ../lib/plugins/theme-plugin-activation.php:1318
 msgid "Activate"
-msgstr ""
+msgstr "Aktivoi"
 
 #: ../lib/plugins/theme-plugin-activation.php:1543
 msgid "The following plugin was activated successfully:"
 msgid_plural "The following plugins were activated successfully:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Lisäosa aktivoitiin onnistuneesti:"
+msgstr[1] "Lisäosat aktivoitiin onnistuneesti:"
 
 #: ../lib/plugins/theme-plugin-activation.php:1828
 msgid "Install package not available."
