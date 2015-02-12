@@ -1,0 +1,7 @@
+#!/bin/sh
+set -e
+
+sass style.sass style.css.tmp
+cat _theme.sass style.css.tmp >style.css
+rm -f style.css.tmp
+rsync --exclude=.sass-cache --exclude=.git -avh . keskisuomenvihreat.fi:/var/www/keskisuomenvihreat.fi/www/wordpress/wp-content/themes/ksv2015
