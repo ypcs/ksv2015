@@ -11,6 +11,11 @@ STYLE_TARGET ?= style.css
 
 TEMPFILE = $(shell mktemp)
 
+clean:
+	rm -f *.map
+	rm -f *.css
+	rm -rf .sass-cache
+
 build:
 	$(SASS) $(STYLE_SOURCE) $(TEMPFILE)
 	cat $(STYLE_HEADER) $(TEMPFILE) >$(STYLE_TARGET)
