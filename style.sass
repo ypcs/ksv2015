@@ -1,0 +1,71 @@
+/*
+Theme Name: ksv2015
+Theme URI: http://www.keskisuomenvihreat.fi
+Description: Keski-Suomen Vihreät 2015
+Author: Ville Korhonen
+Author URI: http://ypcs.fi
+Template: engrave-lite
+Version: 1.0.1
+License: AGPLv3
+Text Domain: ksv2015
+*/
+
+$color_vihreat: #61bf1a
+$color_text: #000
+$color_link: $color_vihreat
+$color_link_alt: #000
+
+$color_background: #000
+$color_footer_background: #fff
+
+@import url('../engrave-lite/style.css')
+
+a
+    color: $color_vihreat
+
+#header
+    background: $color_vihreat
+
+#main-core
+    font-size: 130%
+    color: $color_text
+
+#section-home
+    .entry-header
+        span
+            background: $color_vihreat
+
+.themebutton
+    background-color: $color_link_alt
+
+    &:hover
+        background-color: $color_link
+
+.themebutton2
+    background-color: $color_link
+
+    &:hover
+        background-color: $color_link_alt
+
+.pag
+    li
+        &.current
+            span
+                background: $color_vihreat
+                border-color: $color_vihreat
+
+#slider
+    .featured-link
+        a
+            background-color: $color_link
+
+#footer
+    background-color: $color_footer_background
+    #footer-core
+        background-color: $color_footer_background
+
+        a
+            color: $color_link
+
+        h3
+            color: $color_text
