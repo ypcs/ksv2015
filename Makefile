@@ -11,6 +11,7 @@ STYLE_HEADER ?= $(ASSETS_DIR)/header.css
 STYLE_TARGET ?= style.css
 
 TEMPFILE = $(shell mktemp)
+TIMESTAMP = $(shell date +%Y%m%d%H%M%S)
 
 clean:
 	rm -f *.map
@@ -21,6 +22,7 @@ build:
 	$(SASS) $(STYLE_SOURCE) $(TEMPFILE)
 	cat $(STYLE_HEADER) $(TEMPFILE) >$(STYLE_TARGET)
 	rm -f $(TEMPFILE)
+	sed -i "s,DD,$(TIMESTAMP),g" $(STYLE_TARGET)
 
 sync: build
 	$(RSYNC) $(RSYNC_FLAGS) . $(REMOTE_HOST):$(REMOTE_DIR)
