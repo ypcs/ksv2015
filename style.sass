@@ -7,7 +7,7 @@ $color_link: $color_vihreat
 $color_link_alt: #000
 
 $color_background: #000
-$color_footer_background: #eee
+$color_footer_background: #f6f6f6
 
 @import url('../engrave-lite/style.css')
 
@@ -20,9 +20,32 @@ a
 #header
     background: $color_vihreat
 
+    #header-links
+        font-size: 120%
+        .menu
+            > li.current_page_item
+                > a
+                    //background: #666
+
+#pre-header
+    //background: $color_vihreat
+
 #main-core
     font-size: 130%
     color: $color_text
+
+    h2.blog-title
+        font-family: $font
+        font-size: 120%
+        background: inherit
+        border: none
+
+#sidebar
+    aside
+        h3.widget-title
+            font-style: small-caps
+            font-family: $font
+            font-size: 140%
 
 #section-home
     .entry-header
@@ -54,6 +77,7 @@ a
             background-color: $color_link
 
 #footer
+    font-size: 120%
     background-color: $color_footer_background
     #footer-core
         background-color: $color_footer_background
@@ -63,3 +87,34 @@ a
 
         h3
             color: $color_text
+
+
+//.widget-title
+
+.widget_gce_widget
+    font-size: 110%
+    .gce-widget-list
+        .gce-list-event, .gce-tooltip-event
+            background: inherit
+
+    .gce-list-grouped
+        .gce-event-day
+            .gce-list-title
+                margin-top: 1em
+
+            .gce-feed
+                padding-left: 0.5em
+                border-left: 2px solid $color_footer_background 
+                
+                > div
+                    &:first-child
+                        font-weight: bold
+                    &.gce-list-event
+                        font-size: 110%
+                        padding-top: 0.5em
+                        padding-bottom: 0.5em
+                        small
+                            font-weight: bold
+
+                    a
+                        color: $color_vihreat
