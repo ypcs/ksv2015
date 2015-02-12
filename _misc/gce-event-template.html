@@ -1,0 +1,18 @@
+<div class="event">
+    <h3 class="event-title">
+        <span class="event-date">
+            [if-all-day](koko päivä)[/if-all-day]
+            [if-not-all-day]
+                [if-multi-day][start-date][/if-multi-day] [start-time] &ndash;
+                [if-multi-day][end-date][/if-multi-day] [end-time]
+            [/if-not-all-day]
+        </span>
+        [event-title]
+    </h3>
+
+    <div class="event-body">
+        [if-location]<p class="event-location"><strong>Paikka:</strong> [location]</p>[/if-location]
+        [if-description]<div class="description">[description]</div>[/if-description]
+        <p class="event-link">[link newwindow="true"]iCal[/link]</p>
+    </div>
+</div>
