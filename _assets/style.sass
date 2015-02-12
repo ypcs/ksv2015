@@ -37,7 +37,12 @@ a
                     color: $color_link
 
 #pre-header
-    //background: $color_vihreat
+    background: $color_link_active
+
+    #pre-header-search
+        .search
+            background: $color_link_active
+            border: 1px solid darken($color_link_active, 5%)
 
 #content
     #main
@@ -53,8 +58,8 @@ a
     h2.blog-title
         font-family: $font
         font-size: 120%
-        background: inherit
-        border: none
+        //background: inherit
+        //border: none
 
 #sidebar
     aside
