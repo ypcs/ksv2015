@@ -5,6 +5,7 @@ $color_vihreat: #61bf1a
 $color_text: #000
 $color_link: $color_vihreat
 $color_link_alt: #000
+$color_link_active: darken($color_vihreat, 10%)
 
 $color_background: #000
 $color_footer_background: #f6f6f6
@@ -25,7 +26,15 @@ a
         .menu
             > li.current_page_item
                 > a
-                    //background: #666
+                    background: $color_link_active
+            > li.menu_hover
+                background: $color_link_active
+                > a:hover
+                    background: $color_link_active
+        .sub-menu
+            a
+                &:hover
+                    color: $color_link
 
 #pre-header
     //background: $color_vihreat
@@ -107,7 +116,7 @@ a
             .event
                 a
                     color: $color_vihreat
-                
+
                 h3.event-title
                     font-size: 110%
 
