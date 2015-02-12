@@ -5,9 +5,68 @@
  Author: Ville Korhonen
  Author URI: http://ypcs.fi
  Template: engrave-lite
- Version: 1.0.0
+ Version: 1.0.1
  License: AGPLv3
  Text Domain: ksv2015
 */
 
 @import url('../engrave-lite/style.css');
+
+#main-core {
+    font-size: 130%;
+    color: #000;
+}
+
+#header {
+    background: #61bf1a;
+}
+
+#section-home .entry-header span {
+    background: #61bf1a;
+}
+
+a {
+    color: #61bf1a;
+}
+
+.themebutton {
+    background-color: #000;
+}
+
+.themebutton:hover {
+    background-color: #61bf1a;
+}
+
+.themebutton2 {
+    background: #61bf1a;
+}
+
+.themebutton2:hover {
+    color: #000;
+}
+
+.pag li.current span {
+    background: #61bf1a;
+    border-color: #61bf1a;
+}
+
+#slider .featured-link a {
+    background-color: #61bf1a;
+}
+
+#footer-core a {
+    color: #61bf1a;
+}
+
+#footer {
+    background-color: #fff;
+}
+
+#footer-core {
+    background-color: #fff;
+    color: #000;
+}
+
+#footer-core h3 {
+    color: #000;
+}
