@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Engrave Lite\n"
 "POT-Creation-Date: 2013-10-17 16:59-0000\n"
-"PO-Revision-Date: 2015-02-12 20:53+0200\n"
+"PO-Revision-Date: 2015-03-06 17:49+0200\n"
 "Last-Translator: Ville Korhonen <ville@xd.fi>\n"
 "Language-Team: Ville Korhonen <ville@xd.fi>\n"
 "MIME-Version: 1.0\n"
@@ -181,7 +181,7 @@ msgstr ""
 
 #: ../admin/main/framework.php:1438
 msgid "Are you sure? Resetting will loose all custom values."
-msgstr ""
+msgstr "Oletko varma? Palauttaminen kadottaa kaikki tämänhetkiset asetukset."
 
 #: ../admin/main/framework.php:1439
 msgid ""
@@ -231,19 +231,19 @@ msgstr ""
 
 #: ../admin/main/framework.php:2118
 msgid "Import / Export Options"
-msgstr ""
+msgstr "Tuo / vie asetukset"
 
 #: ../admin/main/framework.php:2119
 msgid "Import Options"
-msgstr ""
+msgstr "Tuo asetukset"
 
 #: ../admin/main/framework.php:2120
 msgid "Import from file"
-msgstr ""
+msgstr "Tuo tiedostosta"
 
 #: ../admin/main/framework.php:2120
 msgid "Import from URL"
-msgstr ""
+msgstr "Tuo URLista"
 
 #: ../admin/main/framework.php:2125
 msgid ""
@@ -269,7 +269,7 @@ msgstr ""
 
 #: ../admin/main/framework.php:2145
 msgid "Export Options"
-msgstr ""
+msgstr "Vie asetukset"
 
 #: ../admin/main/framework.php:2147
 msgid ""
@@ -496,7 +496,7 @@ msgstr ""
 
 #: ../admin/main/options.php:454
 msgid "This is a header."
-msgstr ""
+msgstr "Tämä on otsake."
 
 #: ../admin/main/options.php:455
 msgid "<span class=\"redux-title\">Demo Content</span>"
@@ -520,7 +520,7 @@ msgstr ""
 
 #: ../admin/main/options.php:484
 msgid "Homepage Layout"
-msgstr ""
+msgstr "Etusivun taitto"
 
 #: ../admin/main/options.php:485
 msgid "Select page layout. This will only be applied to the home page."
@@ -573,7 +573,7 @@ msgstr ""
 
 #: ../admin/main/options.php:552
 msgid "Button Text"
-msgstr ""
+msgstr "Napin teksti"
 
 #: ../admin/main/options.php:553
 msgid "Input text to display on the action button."
@@ -1335,7 +1335,7 @@ msgstr ""
 #: ../lib/plugins/theme-plugin-activation.php:179
 #: ../lib/plugins/theme-plugin-activation.php:1845
 msgid "Plugin activated successfully."
-msgstr ""
+msgstr "Lisäosa otettu käyttöön onnistuneesti."
 
 #: ../admin/main/options/00.theme-setup.php:79
 #, php-format
