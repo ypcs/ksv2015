@@ -1,5 +1,5 @@
 RSYNC = rsync
-RSYNC_FLAGS = -avh --exclude=.sass-cache --exclude=.git --exclude=_assets --exclude=*.map --exclude=Makefile --exclude=tmp.*
+RSYNC_FLAGS = -avh --exclude=.sass-cache --exclude=.git --exclude=_assets --exclude=Makefile --exclude=tmp.*
 REMOTE_HOST ?= keskisuomenvihreat.fi
 REMOTE_DIR ?= /var/www/keskisuomenvihreat.fi/www/wordpress/wp-content/themes/ksv2015
 
