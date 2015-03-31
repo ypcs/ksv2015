@@ -53,7 +53,7 @@ $thinkup_class_fullwidth = NULL;
 								}
 								if ( ! empty( $slide['slide_url'] ) ) {
 									echo '<div class="featured-link">',
-										 '<a href="' . $slide['slide_url'] . '">' . _('Read More') . '</a>',
+										 '<a href="' . $slide['slide_url'] . '">' . _('Lue lisää') . '</a>',
 										 '</div>';
 								}
 
